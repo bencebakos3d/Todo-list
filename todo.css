@@ -9,6 +9,7 @@ container {
     flex-direction: column;
     background-color: #58e2c2;
     color: grey;
+    justify-content: center;
 }
 
 .listInput {
@@ -23,7 +24,7 @@ h1 {
 #todoText {
     border: 2px solid grey;
     height: 30px;
-    box-shadow: grey inset 0px 0px 3px  ;
+    box-shadow: grey inset 0px 0px 3px;
 }
 
 button {
@@ -40,6 +41,16 @@ ul {
     text-align: left;
 }
 
-li {
-    display: inline;
+.listElement {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+    justify-content: center;
+}
+
+.checkbox {
+    margin-left: auto; 
+    margin-right: 20px;
 }
